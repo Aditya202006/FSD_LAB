@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5d</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        body{
+            font-family:"Roboto";
+        }
+
+        .a{
+            border-style: solid ;
+            border-color: blue;
+            width: 40%;
+            padding:15px;
+            background-color: #f5f3f2;
+        }
+        .c{
+            font-weight: bold;
+            text-align: left;
+        }
+        .b{
+
+            margin: 10px;
+            padding: 1px;
+            text-align: center;
+            background-color: white;
+        }
+        .box{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin:50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS BOX MODEL DEMONSTRATION</h1>
+    <div class="box">
+    <div class="a">
+            <p class="c">Margin</p>
+            <p class="c">Border</p>
+            <div class="b">
+                <p >this is the content inside the box!</p>
+            </div>
+            <p class="c">Padding</p>
+    </div>
+    </div>
+    <P>This example demonsrates the css box model</P>
+    <ul>
+        <li><b>Content:</b> The white area in the centerwhere the text is displayed.</li>
+        <li><b>Padding:</b> The space between the content and the border(light gray).</li>
+        <li><b>Border:</b> The solid blue line surrounding the box.</li>
+        <li><b>Margin:</b> The space outside the border(moves the box away from other elements).</li>
+    </ul>
+</body>
+</html>
